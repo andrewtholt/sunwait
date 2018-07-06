@@ -4,7 +4,7 @@ set -x
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
-sunwait poll exit angle 53.664386N -2.672186W &? /dev/null
+sunwait poll exit angle 53.664386N -2.672186W &> /dev/null
 
 TOPIC="/home/environment/day"
 MQTT_HOST=192.168.0.65
